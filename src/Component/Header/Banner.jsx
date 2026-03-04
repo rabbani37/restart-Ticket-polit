@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-       <div className="pb-20 pt-40 bg-base-200">
+       <div className="pb-20 pt-40 ">
          <div className=" grid md:grid-cols-2 grid-cols-1 gap-7">
             {/* in-progress */}
             <div className=" rounded grid  max-w-2xl h-62 relative bg-linear-to-tl from-[#9F62F2]  to-[#632EE3] ">

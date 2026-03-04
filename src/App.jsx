@@ -3,6 +3,7 @@ import Banner from "./Component/Header/Banner"
 import NavBar from "./Component/Header/NavBar"
 import CustomerTickets from "./Component/Main/CustomerTickets/CustomerTickets"
 import SidebarRight from "./Component/Main/SidebarRight/SidebarRight"
+import Footer from "./Component/Footer/Footer"
 
 
 
@@ -13,7 +14,9 @@ function App() {
 
 
 
-  return (
+  return (<>
+
+
     <div className="container mx-auto">
       <NavBar></NavBar>
       <Banner></Banner>
@@ -32,6 +35,8 @@ function App() {
       </div>
 
     </div>
+    <Footer></Footer>
+  </>
   )
 }
 
