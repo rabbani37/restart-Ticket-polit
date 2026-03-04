@@ -14,7 +14,7 @@
     "description": "Payment failed during checkout using a Visa card.",
     "customer": "David Wilson",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "In-Progress",
     "createdAt": "2026-03-01"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Customer is requesting a refund for a duplicate payment.",
     "customer": "Emily Clark",
     "priority": "Low",
-    "status": "Open",
+    "status": "In-Progress",
     "createdAt": "2026-03-02"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Verification email not received after registration.",
     "customer": "Ali Hassan",
     "priority": "High",
-    "status": "In Progress",
+    "status": "Open",
     "createdAt": "2026-03-02"
   },
   {
@@ -50,7 +50,7 @@
     "description": "Reset password link expired too quickly.",
     "customer": "Jessica Lee",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "In-Progress",
     "createdAt": "2026-03-03"
   },
   {
@@ -59,7 +59,7 @@
     "description": "Customer requested dark mode for the dashboard.",
     "customer": "Daniel Brown",
     "priority": "Low",
-    "status": "Open",
+    "status": "In-Progress",
     "createdAt": "2026-03-03"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Layout breaks on small screen devices.",
     "customer": "Fatima Noor",
     "priority": "Medium",
-    "status": "In Progress",
+    "status": "In-Progress",
     "createdAt": "2026-03-03"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Invoice PDF download fails after clicking the button.",
     "customer": "Ayesha Khan",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "In-Progress",
     "createdAt": "2026-03-04"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Customer not receiving order confirmation emails.",
     "customer": "Robert Miller",
     "priority": "High",
-    "status": "In Progress",
+    "status": "In-Progress",
     "createdAt": "2026-03-04"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Product page takes more than 10 seconds to load.",
     "customer": "Nusrat Jahan",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "2026-03-04"
   }
 ]

@@ -25,7 +25,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <a className=" text-2xl md:font-bold font-medium font-serif
-                     bg-linear-to-tl from-[rgb(159,98,242)] to-[#632EE3] bg-clip-text text-transparent 
+                     bg-linear-to-tl from-[rgb(181,148,226)] to-[#561ed8] bg-clip-text text-transparent 
                     ">TicketPolit</a>
                 </div>
                 <div className="navbar-end ">

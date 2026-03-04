@@ -1,9 +1,10 @@
-import { use } from "react";
+
+
 import CustomerTicket from "./CustomerTicket";
 
-const CustomerTickets = ({ ticketsData }) => {
+const CustomerTickets = ({ ticketsData, handleAddToTicket }) => {
 
-    const tickets = use(ticketsData);
+    // const tickets = use(ticketsData);
     // console.log(tickets)
     return (
         <div>
@@ -12,7 +13,11 @@ const CustomerTickets = ({ ticketsData }) => {
 
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
                 {
-                    tickets.map(ticket => <CustomerTicket ticket={ticket}></CustomerTicket>)
+                    ticketsData.map(ticket => <CustomerTicket
+                        key={ticket.id}
+                        ticket={ticket}
+                        handleAddToTicket={handleAddToTicket}
+                    ></CustomerTicket>)
                 }
             </div>
         </div>
