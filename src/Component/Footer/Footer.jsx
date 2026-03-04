@@ -6,7 +6,7 @@ import { FaFacebookF, FaLinkedinIn, FaRegMessage, FaXTwitter } from "react-icons
 const Footer = () => {
     return (
 
-        <footer className="  bg-gray-900 text-gray-400 pt-10 px-10 ">
+        <footer className="  bg-gray-900 text-gray-400 pt-10 px-10 mt-3 ">
             <div className="footer sm:footer-horizontal container mx-auto">
                 <div className="w-80">
                     <h2>

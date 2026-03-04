@@ -20,19 +20,22 @@ function App() {
 
 
   const handleAddToTicket = (ticket) => {
-    const isRemaining = remainingTicket.filter(T => T.id !== ticket.id)
-    console.log(isRemaining);
+    const isExgist = newTickets.find(t => t.id === ticket.id);
 
-    if (ticket) {
+    if (!isExgist) {
       setNewTickets([...newTickets, ticket]);
       toast.success(`Added The "${ticket.title}" to task status`)
     }
-    setRemainingTicket(isRemaining)
+    else {
+      toast.error(`Added The "${ticket.title}" to task status`)
+    }
+
   }
 
   const handleConform = (ticket) => {
-
     const remaining = newTickets.filter(T => T !== ticket)
+    const isRemaining = remainingTicket.filter(T => T.id !== ticket.id)
+
 
     if (remaining) {
       setResolvesTicket([...resolvesTicket, ticket])
@@ -45,8 +48,8 @@ function App() {
         theme: 'dark'
       });
       setNewTickets(remaining);
-
     }
+    setRemainingTicket(isRemaining)
   }
 
 
@@ -55,7 +58,7 @@ function App() {
   return (<>
 
 
-    <div className="container mx-auto">
+    <div className="container mx-auto px-3">
       <NavBar></NavBar>
       <Banner resolvesTicket={resolvesTicket} newTickets={newTickets}></Banner>
 
