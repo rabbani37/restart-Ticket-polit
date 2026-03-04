@@ -25,7 +25,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <a className=" text-2xl md:font-bold font-medium font-serif
-                     bg-gradient-to-tl from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent 
+                     bg-linear-to-tl from-[#9F62F2] to-[#632EE3] bg-clip-text text-transparent 
                     ">TicketPolit</a>
                 </div>
                 <div className="navbar-end ">
@@ -40,7 +40,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <div>
-                        <a className="btn text-white bg-gradient-to-tl from-[#9F62F2]  to-[#632EE3] 
+                        <a className="btn text-white bg-linear-to-tl from-[#9F62F2]  to-[#632EE3] 
 hover:opacity-90 transition "><FaPlus /> New Ticket</a>
                     </div>
                 </div>
