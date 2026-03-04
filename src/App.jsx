@@ -43,7 +43,7 @@ function App() {
         position: "top",
         title: "Successfully Resolved",
         icon: "success",
-        timer: 1500,
+        timer: 2000,
         draggable: true,
         theme: 'dark'
       });
@@ -85,6 +85,9 @@ function App() {
           ></SidebarRight>
         </div>
       </div>
+
+
+      
       <ToastContainer
         position="top-center"
         theme="dark"
