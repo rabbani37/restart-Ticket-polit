@@ -27,7 +27,7 @@ function App() {
       toast.success(`Added The "${ticket.title}" to task status`)
     }
     else {
-      toast.error(`Added The "${ticket.title}" to task status`)
+      toast.error(`Already Added The "${ticket.title}" to task status`)
     }
 
   }
