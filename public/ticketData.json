@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TCK_001",
+    "title": "Login issue",
+    "description": "Customer cannot log in to the account using correct credentials.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "TCK_002",
+    "title": "Payment failed",
+    "description": "Payment failed during checkout using a Visa card.",
+    "customer": "David Wilson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "TCK_003",
+    "title": "Refund request",
+    "description": "Customer is requesting a refund for a duplicate payment.",
+    "customer": "Emily Clark",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK_004",
+    "title": "Account verification issue",
+    "description": "Verification email not received after registration.",
+    "customer": "Ali Hassan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK_005",
+    "title": "Dashboard bug",
+    "description": "Analytics dashboard not loading properly.",
+    "customer": "Mohammad Ali",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK_006",
+    "title": "Password reset problem",
+    "description": "Reset password link expired too quickly.",
+    "customer": "Jessica Lee",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK_007",
+    "title": "Feature request",
+    "description": "Customer requested dark mode for the dashboard.",
+    "customer": "Daniel Brown",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK_008",
+    "title": "Mobile UI issue",
+    "description": "Layout breaks on small screen devices.",
+    "customer": "Fatima Noor",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK_009",
+    "title": "Subscription cancellation",
+    "description": "Customer unable to cancel monthly subscription.",
+    "customer": "John Carter",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK_010",
+    "title": "Invoice download error",
+    "description": "Invoice PDF download fails after clicking the button.",
+    "customer": "Ayesha Khan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK_011",
+    "title": "Email notification not working",
+    "description": "Customer not receiving order confirmation emails.",
+    "customer": "Robert Miller",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK_012",
+    "title": "Slow loading page",
+    "description": "Product page takes more than 10 seconds to load.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-04"
+  }
+]
