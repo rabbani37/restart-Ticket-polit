@@ -18,3 +18,9 @@
 	
 5.How is event handling done in React?
 	Answer-: সাধারণত Function declar করে react ইভেন্ট হ্যান্ডেল করা হয়। ইউজার যখন কোথাও ক্লিক করে অথবা রিঅ্যাক্ট করে। তখন React এর Build-in handler ব্যবহার করে সেই ফাংশন কে কল করা হয়। আর এভাবেই ইভেন্ট হ্যান্ডেলিং করা হয় ।
+
+
+
+
+
+LiveLink: http://ticketpolit11.surge.sh/
