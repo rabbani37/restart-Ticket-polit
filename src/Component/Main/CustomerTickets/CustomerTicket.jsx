@@ -12,7 +12,11 @@ const CustomerTicket = ({ ticket, handleAddToTicket }) => {
                 <div className="p-3 shadow rounded h-40 space-y-3 w-full">
                     <div className="flex justify-between items-center">
                         <h3 className="text-xl font-semibold"> {title}</h3>
-                        <div className={`badge badge-soft badge-success ${status==="Open"?"text-green-500":"text-yellow-500"}`}>{status}</div>
+                        <div className={`badge badge-soft badge-success ${status==="Open"?"text-green-500":"text-yellow-500"}`}>
+                           
+                             <div aria-label="status" className={`status status-lg ${status==="Open"?"status-success":"status-warning"}`}></div>
+                             <span> {status}</span> 
+                             </div>
                     </div>
                     <p className="text-gray-600 ">{description}</p>
                     <div className="flex justify-baseline items-center gap-5 ">
