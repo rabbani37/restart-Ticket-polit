@@ -11,7 +11,7 @@
   {
     "id": "TCK_002",
     "title": "Payment failed",
-    "description": "Payment failed during checkout using a Visa card.",
+    "description": "Payment failed during checkout using a Visa card.failed during checkout using a Visa card.",
     "customer": "David Wilson",
     "priority": "Medium",
     "status": "In-Progress",
@@ -38,7 +38,7 @@
   {
     "id": "TCK_005",
     "title": "Dashboard bug",
-    "description": "Analytics dashboard not loading properly.",
+    "description": "Analytics dashboard not loading properly. Dashboard not Analytics loading properly",
     "customer": "Mohammad Ali",
     "priority": "High",
     "status": "Open",
